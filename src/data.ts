@@ -147,12 +147,31 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Smart Sched",
+    subtitle: "Capstone Project I",
+    role: "Frontend Developer & UI Designer",
+    period: "Jul – April 2025",
+    description:
+      "A team scheduling application developed as my first capstone project at CADT. " +
+      "My responsibilities included developing the landing and settings screens. " +
+      "I also help the team to designed the user interface and user experience for the application.",
+    points: [
+      "Working with Tailwind and React js",
+      "Be able to help team develop frontend components andpages",
+      "Designing UI/UX for the application",
+    ],
+    tags: ["Frontend", "UI/UX", "Scrum", "Team Project"],
+    links: { demo: "", video: "", code: "" },
+  },
+  {
     title: "Tver Task",
     subtitle: "Capstone Project II",
     role: "Frontend Developer & UI Designer",
     period: "Oct – Dec 2025",
     description:
-      "A team task-management application built as my second capstone project at CADT. I owned the user interface — from early UI/UX prototypes to the production frontend components.",
+      "A team task-management application built as my second capstone project at CADT." +
+      "My responsibilities included developing the focus screen ." +
+      "",
     points: [
       "Developed frontend components and integrated system features.",
       "Designed UI/UX prototypes and user workflows.",

@@ -1,12 +1,15 @@
-import { projects } from '../data'
-import LinkButtons from './LinkButtons'
-import SectionHead from './SectionHead'
+import { projects } from "../data";
+import LinkButtons from "./LinkButtons";
+import SectionHead from "./SectionHead";
 
 function Projects() {
   return (
     <section id="projects" className="section section-alt">
       <div className="container">
-        <SectionHead kicker="04 — Projects" title="Things I've built" />
+        <SectionHead
+          kicker="04 — Projects"
+          title="Things I've built with my team"
+        />
         <div className="projects-grid">
           {projects.map((p) => (
             <article key={p.title} className="card project-card reveal">
@@ -16,7 +19,7 @@ function Projects() {
                     <i /> <i /> <i />
                   </div>
                   <div className="mock-body">
-                    {['To do', 'Doing', 'Done'].map((col, ci) => (
+                    {["To do", "Doing", "Done"].map((col, ci) => (
                       <div key={col} className="mock-col">
                         <span>{col}</span>
                         {Array.from({ length: 3 - ci }, (_, k) => (
@@ -54,7 +57,7 @@ function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

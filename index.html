@@ -8,7 +8,11 @@
       name="description"
       content="Kim Limkhun — Software Engineer from Phnom Penh, Cambodia. Frontend development, backend QA, and full-stack web projects."
     />
-    <title>Kim Limkhun — Software Engineer</title>
+    <meta
+      name="google-site-verification"
+      content="7LwdeS5RboU-kjnk4bCBp_1GiE9kzz0yaHRh9jg82Qg"
+    />
+    <title>Kim Limkhun | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,10 +22,12 @@
     <script>
       // Apply saved/system theme before paint to avoid a flash
       try {
-        var t = localStorage.getItem('theme')
-        if (t !== 'light' && t !== 'dark')
-          t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-        document.documentElement.dataset.theme = t
+        var t = localStorage.getItem("theme");
+        if (t !== "light" && t !== "dark")
+          t = matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        document.documentElement.dataset.theme = t;
       } catch (e) {}
     </script>
   </head>

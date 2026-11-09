@@ -16,7 +16,7 @@ export const profile = {
   // Drop your CV into /public with this name to enable the download button.
   cvUrl: "/KimLimkhun-CV.pdf",
   // Drop your photo into /public with this name; initials are shown until then.
-  photoUrl: "/me3.JPG",
+  photoUrl: "/me3.jpg",
   socials: [
     {
       name: "LinkedIn",
